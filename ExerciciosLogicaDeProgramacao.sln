@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "ExerciciosLogicaDeProgramacao\FrontEnd.csproj", "{585F489F-31DC-4BAD-9D06-803B74AE196D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "Frontend\FrontEnd.csproj", "{585F489F-31DC-4BAD-9D06-803B74AE196D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{F1835AFE-5321-4B4A-9D07-F1077121C127}"
 EndProject
