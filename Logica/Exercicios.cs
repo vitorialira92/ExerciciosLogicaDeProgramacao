@@ -10,14 +10,14 @@ namespace Logica
 {
     public static class Exercicios
     {
-        public static double FromCelsiusToFahrenheit(double celsiusTemparature)
+        public static double FromCelsiusToFahrenheit(double celsiusTemperature)
         {
-            return (celsiusTemparature * 9 / 5) + 32;
+            return (celsiusTemperature * 9 / 5) + 32;
         }
         
-        public static double FromFahrenheitToCelsius(double fahrenheitTemparature)
+        public static double FromFahrenheitToCelsius(double fahrenheitTemperature)
         {
-            return (fahrenheitTemparature - 32) * 5 / 9;
+            return (fahrenheitTemperature - 32) * 5 / 9;
         }
 
         public static bool IsNumberPrime(double number)
@@ -91,7 +91,7 @@ namespace Logica
 
         public static double HowManyDolarsFromReal(double real, double quotation)
         {
-            return real/quotation;
+            return real / quotation;
         }
         public static bool IsPasswordValid(string password)
         {
@@ -119,14 +119,18 @@ namespace Logica
             int sum = 0;
             for (int i = 0; i < 9; i++)
                 sum += (input[i] - '0') * (10 - i);
+
             int remainder = (sum * 10) % 11;
+
             if (remainder == 10) remainder = 0;
+
             if (input[9] != remainder + '0')
                 return false;
 
             sum = 0;
             for (int i = 0; i < 10; i++)
                 sum += (input[i] - '0') * (11 - i);
+
             remainder = (sum * 10) % 11;
 
             if (remainder == 10) remainder = 0;
